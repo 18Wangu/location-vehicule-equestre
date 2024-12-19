@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Amelioration futur : Laisser selectionne la date de debut pour une meilleur visibilité - s'inspirer de airbnb */
+.react-datepicker__current-month{
+  color: #342E27 !important;
+}
+.react-datepicker__header {
+  background-color: #CDA274 !important;
+  border-radius: 22px 22px 0px 0px !important;
+  padding: 10px !important;
+  color: #342E27 !important;
+}
+.react-datepicker{
+  margin-top: 10px !important;
+  border: 2px solid #CDA274 !important;
+  border-radius: 25px !important;
+}
+.react-datepicker__day--keyboard-selected {
+  background-color: #CDA274 !important;
+  color: #342E27 !important;
+}
+.react-datepicker__day--selected {
+  background-color: #CDA274 !important;
+  color: #342E27 !important;
+}
