@@ -17,6 +17,8 @@ const SearchBar: React.FC = () => {
         <div className="flex flex-col">
           <label className="text-[#342E27] text-sm">Véhicule</label>
           <select className="outline-none text-sm text-[#CDA274]">
+            {/* Faire en sorte que lorsque l'on clique sur van 1 ca affiche que le van 1 dans les cards */}
+            <option value="choisir">Choisir</option>
             <option value="van1">Van 1</option>
             <option value="van2">Van 2</option>
             <option value="van3">Van 3</option>

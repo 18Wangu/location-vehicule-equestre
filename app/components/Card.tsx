@@ -30,3 +30,9 @@ const Card: React.FC<CardProps> = ({ image, title, location, price, startDate, e
 
 export default Card;
 
+/*
+Faire en sorte que apres avoir choisi les dates ca modifie les dates dans la card 
+(ne pas les afficher quand date par encore renseigne)
+
+Si on clique sur une card, on est redirigé vers la page de ce van avec plus de details sur le van
+*/
