@@ -54,7 +54,7 @@ const Reserver: React.FC = () => {
 
                 {/* Date de début */}
                 <div className="flex flex-col">
-                    <label className="text-[#342E27] text-sm">Date de début</label>
+                    <label className="text-[#342E27] text-sm">Date de debut</label>
                     <DatePicker
                         selected={startDate}
                         onChange={(date) => setStartDate(date)}
